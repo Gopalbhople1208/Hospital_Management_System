@@ -13,7 +13,7 @@ public class conn {
 
     public  conn(){
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","GOPALbho12082005");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","password your mySQL");
             statement = connection.createStatement();
 
         }catch (Exception e){
